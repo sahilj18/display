@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Playwrite GB S", cursive;
+  }
+  
+  .animal {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1546182990-dffeafbe841d?q);
+    background-size: cover;
+  }
+  .bird {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1555169062-013468b47731?q);
+    background-size: cover;
+  }
+  .animal .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(245, 245, 220, 0.208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bird .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.597);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
